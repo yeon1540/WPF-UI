@@ -5,7 +5,11 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using Wpf.Ui;
+<<<<<<< HEAD
 using WPF.UI.Default.Views.Windows;
+=======
+using WPF.UI.Default.Views;
+>>>>>>> develop
 
 namespace WPF.UI.Default.Services
 {
@@ -46,12 +50,24 @@ namespace WPF.UI.Default.Services
         /// </summary>
         private async Task HandleActivationAsync()
         {
+<<<<<<< HEAD
             if (Application.Current.Windows.OfType<MainWindow>().Any())
             {
                 _navigationWindow = (_serviceProvider.GetService(typeof(INavigationWindow)) as INavigationWindow);
                 _navigationWindow.ShowWindow();
 
                 _navigationWindow.Navigate(typeof(Views.Pages.DashboardPage));
+=======
+            if (!Application.Current.Windows.OfType<MainWindow>().Any())
+            {
+                _navigationWindow = _serviceProvider.GetService(typeof(INavigationWindow)) as INavigationWindow;
+                if (_navigationWindow != null)
+                {
+                    _navigationWindow.ShowWindow();
+
+                    _navigationWindow.Navigate(typeof(WPF.UI.ControlLib.Views.Pages.AutoScreen));
+                }
+>>>>>>> develop
             }
 
             await Task.CompletedTask;

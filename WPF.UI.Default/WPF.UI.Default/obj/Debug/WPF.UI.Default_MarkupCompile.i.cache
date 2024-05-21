@@ -10,11 +10,19 @@ none
 false
 DEBUG;TRACE
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\App.xaml
+<<<<<<< HEAD
 2-2035813155
 
 10-339586024
 158964897118
 Views\Pages\DashboardPage.xaml;Views\Windows\MainWindow.xaml;
+=======
+11892971807
+
+91676589208
+160-1996610421
+Views\MainWindow.xaml;
+>>>>>>> develop
 
 True
 

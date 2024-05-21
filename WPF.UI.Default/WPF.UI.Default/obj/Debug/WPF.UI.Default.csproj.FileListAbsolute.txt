@@ -6,9 +6,58 @@ D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\obj\Debug\WPF.UI.Default_MarkupCo
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\WPF.UI.Default.exe.config
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\WPF.UI.Default.exe
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\WPF.UI.Default.pdb
+<<<<<<< HEAD
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Buffers.dll
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Numerics.Vectors.dll
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.ValueTuple.dll
+=======
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\CommunityToolkit.Mvvm.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Configuration.CommandLine.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Configuration.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Configuration.FileExtensions.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Configuration.Json.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Configuration.UserSecrets.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.DependencyInjection.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Diagnostics.Abstractions.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Diagnostics.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.FileProviders.Physical.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Hosting.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Logging.Configuration.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Logging.Console.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Logging.Debug.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Logging.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Logging.EventLog.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Logging.EventSource.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Options.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Primitives.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Buffers.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.ComponentModel.Annotations.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Drawing.Common.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Memory.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Numerics.Vectors.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Text.Encodings.Web.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Text.Json.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.ValueTuple.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\WPF.UI.ControlLib.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Wpf.Ui.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Wpf.Ui.Tray.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\WPF.UI.ControlLib.pdb
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\CommunityToolkit.Mvvm.pdb
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\CommunityToolkit.Mvvm.xml
+>>>>>>> develop
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Configuration.xml
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
@@ -37,21 +86,43 @@ D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Lo
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Options.xml
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Options.ConfigurationExtensions.xml
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Primitives.xml
+<<<<<<< HEAD
+=======
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Buffers.xml
+>>>>>>> develop
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Drawing.Common.pdb
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Drawing.Common.xml
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Memory.xml
+<<<<<<< HEAD
+=======
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Numerics.Vectors.xml
+>>>>>>> develop
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Text.Encodings.Web.xml
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Text.Json.xml
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Threading.Tasks.Extensions.xml
+<<<<<<< HEAD
+=======
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.ValueTuple.xml
+>>>>>>> develop
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Wpf.Ui.pdb
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Wpf.Ui.xml
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Wpf.Ui.Tray.pdb
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Wpf.Ui.Tray.xml
+<<<<<<< HEAD
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\obj\Debug\App.baml
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\obj\Debug\Views\Pages\DashboardPage.baml
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\obj\Debug\Views\Windows\MainWindow.baml
+=======
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\obj\Debug\WPF.UI.Default.csproj.AssemblyReference.cache
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\obj\Debug\App.baml
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\obj\Debug\Views\MainWindow.g.cs
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\obj\Debug\App.g.cs
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\obj\Debug\WPF.UI.Default_MarkupCompile.cache
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\obj\Debug\WPF.UI.Default_MarkupCompile.lref
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\obj\Debug\Views\MainWindow.baml
+>>>>>>> develop
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\obj\Debug\WPF.UI.Default.g.resources
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\obj\Debug\WPF.UI.Default.Properties.Resources.resources
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\obj\Debug\WPF.UI.Default.csproj.GenerateResource.cache
