@@ -5,17 +5,9 @@ VisualStudioVersion = 16.0.34601.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.UI.Default", "WPF.UI.Default\WPF.UI.Default.csproj", "{058CB8B8-DA44-431A-B5F4-C3DF3F36BD72}"
 EndProject
-<<<<<<< HEAD
-Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "WPF.UI.Lib", "src\WPF.UI.Lib\WPF.UI.Lib.shproj", "{AAC1AB07-74D3-463A-8D33-D582CBBC020B}"
-=======
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.UI.ControlLib", "src\WPF.UI.ControlLib\WPF.UI.ControlLib.csproj", "{1F109A6A-9D85-4ED6-BFE4-1F30289C464C}"
->>>>>>> develop
 EndProject
 Global
-	GlobalSection(SharedMSBuildProjectFiles) = preSolution
-		src\WPF.UI.Lib\WPF.UI.Lib.projitems*{058cb8b8-da44-431a-b5f4-c3df3f36bd72}*SharedItemsImports = 4
-		src\WPF.UI.Lib\WPF.UI.Lib.projitems*{aac1ab07-74d3-463a-8d33-d582cbbc020b}*SharedItemsImports = 13
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU

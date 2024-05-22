@@ -6,18 +6,11 @@ using System.Reflection;
 using System.Windows;
 using System.Windows.Threading;
 using Wpf.Ui;
-<<<<<<< HEAD
-using WPF.UI.Default.Services;
-using WPF.UI.Default.ViewModels.Windows;
-using WPF.UI.Default.Views.Pages;
-using WPF.UI.Default.Views.Windows;
-=======
 using WPF.UI.ControlLib.Views.Pages;
 using WPF.UI.ControlLib.ViewsModel.Pages;
 using WPF.UI.Default.Services;
 using WPF.UI.Default.ViewModels;
 using WPF.UI.Default.Views;
->>>>>>> develop
 
 namespace WPF.UI.Default
 {
@@ -54,27 +47,14 @@ namespace WPF.UI.Default
                 services.AddSingleton<INavigationWindow, MainWindow>();
                 services.AddSingleton<MainWindowViewModel>();
 
-<<<<<<< HEAD
-                services.AddSingleton<DashboardPage>();
-                //services.AddSingleton<DashboardViewModel>();
-=======
                 services.AddSingleton<AutoScreen>();
                 services.AddSingleton<AutoScreenViewModel>();
->>>>>>> develop
                 //services.AddSingleton<DataPage>();
                 //services.AddSingleton<DataViewModel>();
                 //services.AddSingleton<SettingsPage>();
                 //services.AddSingleton<SettingsViewModel>();
             }).Build();
 
-<<<<<<< HEAD
-        /// <summary>
-        /// Gets registered service.
-        /// </summary>
-        /// <typeparam name="T">Type of the service to get.</typeparam>
-        /// <returns>Instance of the service or <see langword="null"/>.</returns>
-=======
->>>>>>> develop
         public static T GetService<T>()
             where T : class
         {
