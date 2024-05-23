@@ -20,3 +20,5 @@ D:\GitHub\WPF-UI\WPF.UI.Default\src\WPF.UI.ControlLib\obj\Debug\WPF.UI.ControlLi
 D:\GitHub\WPF-UI\WPF.UI.Default\src\WPF.UI.ControlLib\obj\Debug\WPF.UI.ControlLib.csproj.CopyComplete
 D:\GitHub\WPF-UI\WPF.UI.Default\src\WPF.UI.ControlLib\obj\Debug\WPF.UI.ControlLib.dll
 D:\GitHub\WPF-UI\WPF.UI.Default\src\WPF.UI.ControlLib\obj\Debug\WPF.UI.ControlLib.pdb
+D:\GitHub\WPF-UI\WPF.UI.Default\src\WPF.UI.ControlLib\bin\Debug\DB\Default_DB.db
+D:\GitHub\WPF-UI\WPF.UI.Default\src\WPF.UI.ControlLib\obj\Debug\WPF.UI.ControlLib.csproj.AssemblyReference.cache

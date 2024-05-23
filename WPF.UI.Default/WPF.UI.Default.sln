@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.UI.Default", "WPF.UI.De
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.UI.ControlLib", "src\WPF.UI.ControlLib\WPF.UI.ControlLib.csproj", "{1F109A6A-9D85-4ED6-BFE4-1F30289C464C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PublicService", "src\PublicService\PublicService.csproj", "{FA8282CD-5EDB-4607-B41A-7A7325399F3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1F109A6A-9D85-4ED6-BFE4-1F30289C464C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F109A6A-9D85-4ED6-BFE4-1F30289C464C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F109A6A-9D85-4ED6-BFE4-1F30289C464C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA8282CD-5EDB-4607-B41A-7A7325399F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA8282CD-5EDB-4607-B41A-7A7325399F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA8282CD-5EDB-4607-B41A-7A7325399F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA8282CD-5EDB-4607-B41A-7A7325399F3D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
