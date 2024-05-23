@@ -92,6 +92,11 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\PublicService\PublicService.csproj">
+      <Project>{fa8282cd-5edb-4607-b41a-7a7325399f3d}</Project>
+      <Name>PublicService</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using PublicService;
+using System;
 using System.Windows;
 using Wpf.Ui;
 using Wpf.Ui.Appearance;
@@ -13,6 +14,8 @@ namespace WPF.UI.Default.Views
     public partial class MainWindow : INavigationWindow
     {
         public MainWindowViewModel ViewModel { get; }
+        public SQLite _sql = new SQLite();
+        string DB_path = @"D:\GitHub\WPF-UI\WPF.UI.Default\src\WPF.UI.ControlLib\DB\Default_DB.db";
 
         public MainWindow(MainWindowViewModel viewModel, IPageService pageService, INavigationService navigationService)
         {
@@ -26,6 +29,13 @@ namespace WPF.UI.Default.Views
             SetPageService(pageService);
 
             navigationService.SetNavigationControl(RootNavigation);
+
+            #region DB관련
+            if (_sql.DBConn(DB_path) == true)
+            {
+                //접속 되면 DB 해당 파일에 모으기
+            }
+            #endregion
         }
 
         #region INavigationWindow methods

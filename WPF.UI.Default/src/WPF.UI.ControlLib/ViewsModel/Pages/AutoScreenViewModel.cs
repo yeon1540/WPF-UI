@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace WPF.UI.ControlLib.ViewsModel.Pages
 {
-    public partial class AutoScreenViewModel
+    public class AutoScreenViewModel
     {
+        public int Id { get; set; }
+        public string Name { get; set; }
+        public int Age { get; set; }
     }
 }

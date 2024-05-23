@@ -1,7 +1,10 @@
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\DB\Default_DB.db
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\WPF.UI.Default.exe.config
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\WPF.UI.Default.exe
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\WPF.UI.Default.pdb
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\CommunityToolkit.Mvvm.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\EntityFramework.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\EntityFramework.SqlServer.dll
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Configuration.Binder.dll
@@ -47,6 +50,8 @@ D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Wpf.Ui.Tray.dll
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\WPF.UI.ControlLib.pdb
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\CommunityToolkit.Mvvm.pdb
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\CommunityToolkit.Mvvm.xml
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\EntityFramework.xml
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\EntityFramework.SqlServer.xml
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Configuration.xml
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
@@ -104,12 +109,8 @@ D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\obj\Debug\WPF.UI.Default.csproj.C
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\obj\Debug\WPF.UI.Default.csproj.CopyComplete
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\obj\Debug\WPF.UI.Default.exe
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\obj\Debug\WPF.UI.Default.pdb
-D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\DB\Default_DB.db
-D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\EntityFramework.dll
-D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\EntityFramework.SqlServer.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\PublicService.dll
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\PublicService.pdb
+D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\PublicService.dll.config
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Data.SQLite.dll
-D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Data.SQLite.EF6.dll
-D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Data.SQLite.Linq.dll
-D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\EntityFramework.xml
-D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\EntityFramework.SqlServer.xml
 D:\GitHub\WPF-UI\WPF.UI.Default\WPF.UI.Default\bin\Debug\System.Data.SQLite.xml

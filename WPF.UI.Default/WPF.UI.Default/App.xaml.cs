@@ -19,6 +19,7 @@ namespace WPF.UI.Default
     /// </summary>
     public partial class App
     {
+        #region WPF-UI 관련
         // The.NET Generic Host provides dependency injection, configuration, logging, and other services.
         // https://docs.microsoft.com/dotnet/core/extensions/generic-host
         // https://docs.microsoft.com/dotnet/core/extensions/dependency-injection
@@ -86,5 +87,6 @@ namespace WPF.UI.Default
         {
             // For more info see https://docs.microsoft.com/en-us/dotnet/api/system.windows.application.dispatcherunhandledexception?view=windowsdesktop-6.0
         }
+        #endregion
     }
 }
