@@ -1,0 +1,15 @@
+D:\GitHub\WPF-UI\Defalut\Defalut\src\DefalutControls\bin\Debug\DefalutControls.dll
+D:\GitHub\WPF-UI\Defalut\Defalut\src\DefalutControls\bin\Debug\DefalutControls.pdb
+D:\GitHub\WPF-UI\Defalut\Defalut\src\DefalutControls\bin\Debug\System.ValueTuple.dll
+D:\GitHub\WPF-UI\Defalut\Defalut\src\DefalutControls\obj\Debug\DefalutControls.csproj.AssemblyReference.cache
+D:\GitHub\WPF-UI\Defalut\Defalut\src\DefalutControls\obj\Debug\Views\AutoScreen.g.cs
+D:\GitHub\WPF-UI\Defalut\Defalut\src\DefalutControls\obj\Debug\DefalutControls_MarkupCompile.cache
+D:\GitHub\WPF-UI\Defalut\Defalut\src\DefalutControls\obj\Debug\DefalutControls_MarkupCompile.lref
+D:\GitHub\WPF-UI\Defalut\Defalut\src\DefalutControls\obj\Debug\Views\AutoScreen.baml
+D:\GitHub\WPF-UI\Defalut\Defalut\src\DefalutControls\obj\Debug\DefalutControls.g.resources
+D:\GitHub\WPF-UI\Defalut\Defalut\src\DefalutControls\obj\Debug\DefalutControls.Properties.Resources.resources
+D:\GitHub\WPF-UI\Defalut\Defalut\src\DefalutControls\obj\Debug\DefalutControls.csproj.GenerateResource.cache
+D:\GitHub\WPF-UI\Defalut\Defalut\src\DefalutControls\obj\Debug\DefalutControls.csproj.CoreCompileInputs.cache
+D:\GitHub\WPF-UI\Defalut\Defalut\src\DefalutControls\obj\Debug\DefalutControls.csproj.CopyComplete
+D:\GitHub\WPF-UI\Defalut\Defalut\src\DefalutControls\obj\Debug\DefalutControls.dll
+D:\GitHub\WPF-UI\Defalut\Defalut\src\DefalutControls\obj\Debug\DefalutControls.pdb
