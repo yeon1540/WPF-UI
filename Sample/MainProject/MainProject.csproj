@@ -222,6 +222,10 @@
       <Project>{2e4f6173-18f5-483b-80e7-7ec5914a96f5}</Project>
       <Name>CompanyProject</Name>
     </ProjectReference>
+    <ProjectReference Include="src\Comm\Comm.csproj">
+      <Project>{69684f7e-c28f-4532-acd8-95c94257778c}</Project>
+      <Name>Comm</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Page Include="Views\MainWindow.xaml">

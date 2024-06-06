@@ -111,5 +111,11 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MainProject\src\Comm\Comm.csproj">
+      <Project>{69684f7e-c28f-4532-acd8-95c94257778c}</Project>
+      <Name>Comm</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -6,18 +6,12 @@ using MainProject.Views;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
 using System.IO;
-using System.Linq;
 using System.Reflection;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Threading;
 using Wpf.Ui;
+using Comm.sqlite.CMD;
 
 namespace MainProject
 {
@@ -36,6 +30,8 @@ namespace MainProject
             .ConfigureAppConfiguration(c => { c.SetBasePath(Path.GetDirectoryName(Assembly.GetEntryAssembly().Location)); })
             .ConfigureServices((context, services) =>
             {
+                #region 서비스 등록
+
                 services.AddHostedService<ApplicationHostService>();
 
                 // Page resolver service
@@ -50,12 +46,25 @@ namespace MainProject
                 // Service containing navigation, same as INavigationWindow... but without window
                 services.AddSingleton<INavigationService, NavigationService>();
 
+                #endregion
+
+                #region 창 / 페이지 등록
+
                 // Main window with navigation
                 services.AddSingleton<INavigationWindow, MainWindow>();
                 services.AddSingleton<MainWindowViewModel>();
 
                 services.AddSingleton<AutoScreen>();
                 services.AddSingleton<AutoScreenViewModel>();
+
+                #endregion
+
+                #region DB 테이블 등록
+
+                DBContext dBContext = new DBContext();
+                dBContext.AddContext();
+
+                #endregion
             }).Build();
 
         public static T GetService<T>()

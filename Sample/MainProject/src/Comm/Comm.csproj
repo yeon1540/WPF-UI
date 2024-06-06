@@ -278,9 +278,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="sqlite\CMD\DBContext.cs" />
+    <Compile Include="sqlite\Interfaces\IDataBase.cs" />
     <Compile Include="sqlite\Models\DefaultContext.cs" />
     <Compile Include="sqlite\Models\Info.cs" />
     <Compile Include="sqlite\Models\Serial.cs" />
+    <Compile Include="sqlite\Services\InfoDao.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

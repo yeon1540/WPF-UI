@@ -68,7 +68,6 @@ D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\bin\Debug\System.Memory.xml
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\bin\Debug\System.Numerics.Vectors.xml
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\bin\Debug\System.Threading.Tasks.Extensions.xml
-D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\obj\Debug\Comm.csproj.AssemblyReference.cache
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\obj\Debug\Comm.csproj.CoreCompileInputs.cache
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\obj\Debug\Comm.csproj.CopyComplete
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\obj\Debug\Comm.dll
