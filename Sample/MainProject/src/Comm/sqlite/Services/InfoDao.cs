@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace Comm.sqlite.Services
 {
-    internal class InfoDao : IDataBase<Info>
+    partial class InfoDao : IDataBase<Info>
     {
         private readonly DefaultContext defaultContext;
         private Info info;

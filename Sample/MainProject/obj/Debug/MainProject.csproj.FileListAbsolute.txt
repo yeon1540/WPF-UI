@@ -1,4 +1,5 @@
 D:\GitHub\WPF-UI\Sample\MainProject\bin\Debug\e_sqlite3.dll
+D:\GitHub\WPF-UI\Sample\MainProject\bin\Debug\FodyWeavers.xsd
 D:\GitHub\WPF-UI\Sample\MainProject\bin\Debug\MainProject.exe.config
 D:\GitHub\WPF-UI\Sample\MainProject\bin\Debug\MainProject.exe
 D:\GitHub\WPF-UI\Sample\MainProject\bin\Debug\MainProject.pdb
@@ -115,7 +116,6 @@ D:\GitHub\WPF-UI\Sample\MainProject\bin\Debug\Microsoft.Data.Sqlite.xml
 D:\GitHub\WPF-UI\Sample\MainProject\bin\Debug\Microsoft.Extensions.DependencyModel.xml
 D:\GitHub\WPF-UI\Sample\MainProject\bin\Debug\Newtonsoft.Json.xml
 D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\MainProject.csproj.AssemblyReference.cache
-D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\MainProject.exe.config
 D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\App.baml
 D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\Views\MainWindow.g.cs
 D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\App.g.cs
@@ -125,7 +125,10 @@ D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\Views\MainWindow.baml
 D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\MainProject.g.resources
 D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\MainProject.Properties.Resources.resources
 D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\MainProject.csproj.GenerateResource.cache
+D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\MainProject.GeneratedMSBuildEditorConfig.editorconfig
 D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\MainProject.csproj.CoreCompileInputs.cache
+D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\MainProject.csproj.Fody.CopyLocal.cache
+D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\MainProject.csproj.Fody.RuntimeCopyLocal.cache
 D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\MainProject.csproj.CopyComplete
 D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\MainProject.exe
 D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\MainProject.pdb

@@ -17,6 +17,9 @@
     mc:Ignorable="d">
 
     <Grid>
-        <TextBlock Text="오토" FontSize="50"/>
+        <StackPanel>
+            <TextBlock Text="오토" FontSize="50"/>
+            <Button Content="눌러" FontSize="20"/>
+        </StackPanel>
     </Grid>
 </Page>

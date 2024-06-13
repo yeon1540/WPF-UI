@@ -1,46 +1,21 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CompanyProject.Views.Pages;
+using PropertyChanged;
 using System.Collections.ObjectModel;
 using Wpf.Ui;
 using Wpf.Ui.Controls;
 
 namespace MainProject.ViewModels
 {
+    [AddINotifyPropertyChangedInterface]
     public partial class MainWindowViewModel : ObservableObject
     {
         private bool _isInitialized = false;
 
-        private string _applicationTitle;
-
-        public string ApplicationTitle
-        {
-            get => _applicationTitle;
-            set => SetProperty(ref _applicationTitle, value);
-        }
-
-        private ObservableCollection<object> _navigationItems = new ObservableCollection<object>();
-
-        public ObservableCollection<object> NavigationItems
-        {
-            get => _navigationItems;
-            set => SetProperty(ref _navigationItems, value);
-        }
-
-        private ObservableCollection<object> _navigationFooter = new ObservableCollection<object>();
-
-        public ObservableCollection<object> NavigationFooter
-        {
-            get => _navigationFooter;
-            set => SetProperty(ref _navigationFooter, value);
-        }
-
-        private ObservableCollection<MenuItem> _trayMenuItems = new ObservableCollection<MenuItem>();
-
-        public ObservableCollection<MenuItem> TrayMenuItems
-        {
-            get => _trayMenuItems;
-            set => SetProperty(ref _trayMenuItems, value);
-        }
+        public string ApplicationTitle { get; set; }
+        public ObservableCollection<object> NavigationItems { get; set; }
+        public ObservableCollection<object> NavigationFooter { get; set; }
+        public ObservableCollection<MenuItem> TrayMenuItems { get; set; }
 
         public MainWindowViewModel(INavigationService navigationService)
         {

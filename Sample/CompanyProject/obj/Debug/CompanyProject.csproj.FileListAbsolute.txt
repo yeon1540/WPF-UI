@@ -30,6 +30,7 @@ D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.DotNet.PlatformAbstra
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.Data.Sqlite.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.Extensions.DependencyModel.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.Extensions.Primitives.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\SQLitePCLRaw.core.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Newtonsoft.Json.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Comm.pdb
@@ -62,6 +63,7 @@ D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.DotNet.PlatformAbstra
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.Data.Sqlite.xml
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.Extensions.DependencyModel.xml
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.Extensions.Primitives.xml
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Newtonsoft.Json.xml
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.csproj.AssemblyReference.cache
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\Views\Pages\AutoScreen.g.cs
@@ -71,7 +73,10 @@ D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\Views\Pages\AutoScreen.baml
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.g.resources
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.Properties.Resources.resources
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.csproj.GenerateResource.cache
+D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.GeneratedMSBuildEditorConfig.editorconfig
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.csproj.CoreCompileInputs.cache
+D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.csproj.Fody.CopyLocal.cache
+D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.csproj.Fody.RuntimeCopyLocal.cache
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.csproj.CopyComplete
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.pdb

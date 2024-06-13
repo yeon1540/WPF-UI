@@ -12,6 +12,8 @@ using System.Windows;
 using System.Windows.Threading;
 using Wpf.Ui;
 using Comm.sqlite.CMD;
+using Comm.sqlite.Interfaces;
+using Comm.sqlite.Models;
 
 namespace MainProject
 {
