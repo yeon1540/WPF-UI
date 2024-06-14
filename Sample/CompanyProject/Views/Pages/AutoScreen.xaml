@@ -6,9 +6,10 @@
     xmlns:local="clr-namespace:CompanyProject.Views.Pages"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:ui="http://schemas.lepo.co/wpfui/2022/xaml"
+    xmlns:vm="clr-namespace:CompanyProject.ViewModels.Pages"
     Title="AutoScreen"
-    d:DataContext="{d:DesignInstance local:AutoScreen,
-                                     IsDesignTimeCreatable=False}"
+    d:DataContext="{d:DesignInstance vm:AutoScreenViewModel,
+    IsDesignTimeCreatable=False}"
     d:DesignHeight="450"
     d:DesignWidth="800"
     ui:Design.Background="{DynamicResource ApplicationBackgroundBrush}"
@@ -19,7 +20,7 @@
     <Grid>
         <StackPanel>
             <TextBlock Text="오토" FontSize="50"/>
-            <Button Content="눌러" FontSize="20"/>
+            <Button Content="눌러" FontSize="20" Command="{Binding ViewModel.MyCommand}"/>
         </StackPanel>
     </Grid>
 </Page>

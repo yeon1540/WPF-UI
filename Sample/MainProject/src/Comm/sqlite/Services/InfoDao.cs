@@ -3,14 +3,13 @@ using Comm.sqlite.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Xml.Linq;
 
 namespace Comm.sqlite.Services
 {
-    partial class InfoDao : IDataBase<Info>
+    public class InfoDao : IDataBase<Info>
     {
         private readonly DefaultContext defaultContext;
-        private Info info;
+        private Info info = new Info();
 
         public InfoDao(DefaultContext defaultContext)
         {
@@ -68,6 +67,7 @@ namespace Comm.sqlite.Services
         #endregion
 
         #region 추가
+
         /// <summary>
         /// 항목 및 데이터 새로만들기
         /// </summary>
@@ -75,18 +75,21 @@ namespace Comm.sqlite.Services
         /// <param name="sData"></param>
         public void Insert(string sID, string sData)
         {
+            Info col = new Info();
+
             this.info = this.defaultContext.Info.Find(sID);
 
             if (this.info == null)
             {
-                this.info.Id = sID;
-                this.info.Comment = sData;
+                col.Id = sID;
+                col.Comment = sData;
 
-                this.defaultContext.Add(this.info);
+                this.defaultContext.Info.Add(col);
+                this.defaultContext.SaveChanges();
             }
             else
             {
-                throw new NotImplementedException();
+                //throw new NotImplementedException();
             }
         }
 

@@ -1,3 +1,5 @@
+D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\bin\Debug\Microsoft.EntityFrameworkCore.dll
+D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\obj\Debug\Comm.pdb
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\bin\Debug\e_sqlite3.dll
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\bin\Debug\Comm.dll.config
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\bin\Debug\Comm.dll
@@ -8,7 +10,6 @@ D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\bin\Debug\Microsoft.Data.Sqlite.dll
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\bin\Debug\Microsoft.DotNet.PlatformAbstractions.dll
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\bin\Debug\Microsoft.EntityFrameworkCore.Abstractions.dll
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\bin\Debug\Microsoft.EntityFrameworkCore.Design.dll
-D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\bin\Debug\Microsoft.EntityFrameworkCore.dll
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\bin\Debug\Microsoft.EntityFrameworkCore.Relational.Design.dll
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\bin\Debug\Microsoft.EntityFrameworkCore.Sqlite.Design.dll
@@ -71,4 +72,4 @@ D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\bin\Debug\System.Threading.Tasks.Ex
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\obj\Debug\Comm.csproj.CoreCompileInputs.cache
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\obj\Debug\Comm.csproj.CopyComplete
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\obj\Debug\Comm.dll
-D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\obj\Debug\Comm.pdb
+D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\obj\Debug\Comm.csproj.AssemblyReference.cache

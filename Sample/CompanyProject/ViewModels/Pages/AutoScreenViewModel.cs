@@ -10,13 +10,13 @@ namespace CompanyProject.ViewModels.Pages
     [AddINotifyPropertyChangedInterface]
     public partial class AutoScreenViewModel : ObservableObject
     {
-        private readonly IDataBase<Info> dataBase;
+        private readonly IDataBase<Info> _dataBase;
 
         public ICommand MyCommand { get; }
 
         public AutoScreenViewModel(IDataBase<Info> dataBase)
         {
-            this.dataBase = dataBase;
+            this._dataBase = dataBase;
 
             // RelayCommand 초기화 및 명령 실행 메서드 지정
             MyCommand = new RelayCommand(ExecuteMyCommand);
@@ -24,7 +24,7 @@ namespace CompanyProject.ViewModels.Pages
 
         private void ExecuteMyCommand()
         {
-            dataBase.Insert("길동이", "1234");
+            _dataBase.Insert("길동이", "1234");
         }
     }
 }

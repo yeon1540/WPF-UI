@@ -1,8 +1,13 @@
-﻿using CompanyProject.ViewModels.Pages;
+﻿using Comm.sqlite.CMD;
+using Comm.sqlite.Interfaces;
+using Comm.sqlite.Models;
+using Comm.sqlite.Services;
+using CompanyProject.ViewModels.Pages;
 using CompanyProject.Views.Pages;
 using MainProject.Services;
 using MainProject.ViewModels;
 using MainProject.Views;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -11,9 +16,7 @@ using System.Reflection;
 using System.Windows;
 using System.Windows.Threading;
 using Wpf.Ui;
-using Comm.sqlite.CMD;
-using Comm.sqlite.Interfaces;
-using Comm.sqlite.Models;
+using Wpf.Ui.Controls;
 
 namespace MainProject
 {
@@ -61,12 +64,19 @@ namespace MainProject
 
                 #endregion
 
-                #region DB 테이블 등록
+                #region 인터페이스에 대한 구현 등록
 
-                DBContext dBContext = new DBContext();
-                dBContext.AddContext();
+                services.AddSingleton<IDataBase<Info>, InfoDao>();
 
                 #endregion
+
+                #region DB 관련
+
+                DBContext dBContext = new DBContext();
+                services = dBContext.AddContext(services);
+
+                #endregion
+
             }).Build();
 
         public static T GetService<T>()
@@ -81,6 +91,8 @@ namespace MainProject
         private void OnStartup(object sender, StartupEventArgs e)
         {
             _host.Start();
+            DBContext dBContext = new DBContext();
+            dBContext.SQLitePCLBatteriesInit();
         }
 
         /// <summary>

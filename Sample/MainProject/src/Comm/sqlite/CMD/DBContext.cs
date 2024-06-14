@@ -1,27 +1,30 @@
-﻿using Comm.sqlite.Models;
+﻿using Comm.sqlite.Interfaces;
+using Comm.sqlite.Models;
 using Microsoft.Extensions.DependencyInjection;
+using System;
 
 namespace Comm.sqlite.CMD
 {
     public class DBContext
     {
-        ServiceCollection services = new ServiceCollection();
+        IServiceCollection _services;
 
-        public bool AddContext()
+        public IServiceCollection AddContext(IServiceCollection services)
         {
-            bool result = false;
-
             try
             {
-                services.AddDbContext<DefaultContext>();
-                result = true;
+                _services = services.AddDbContext<DefaultContext>();
             }
             catch
             {
-                result = false;
             }
 
-            return result;
+            return _services;
+        }
+
+        public void SQLitePCLBatteriesInit()
+        {
+            SQLitePCL.Batteries.Init();
         }
     }
 }

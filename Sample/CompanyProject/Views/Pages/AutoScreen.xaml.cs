@@ -8,8 +8,11 @@ namespace CompanyProject.Views.Pages
     /// </summary>
     public partial class AutoScreen : Page
     {
-        public AutoScreen()
+        public AutoScreenViewModel ViewModel { get; }
+
+        public AutoScreen(AutoScreenViewModel viewModel)
         {
+            ViewModel = viewModel;
             DataContext = this;
 
             InitializeComponent();
