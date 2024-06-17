@@ -21,7 +21,7 @@
     WindowCornerPreference="Round"
     WindowStartupLocation="CenterScreen"
     mc:Ignorable="d">
-    
+
     <Grid>
         <ui:TitleBar
             x:Name="TitleBar"

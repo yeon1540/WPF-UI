@@ -1,6 +1,4 @@
-D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Wpf.Ui.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\e_sqlite3.dll
-D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\FodyWeavers.xsd
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\CompanyProject.dll.config
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\CompanyProject.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\CompanyProject.pdb
@@ -13,9 +11,11 @@ D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\System.Memory.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\System.Numerics.Vectors.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\System.Threading.Tasks.Extensions.dll
+D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Wpf.Ui.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.EntityFrameworkCore.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.EntityFrameworkCore.Sqlite.dll
+D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\SQLitePCLRaw.batteries_v2.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.EntityFrameworkCore.Relational.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.Extensions.Caching.Abstractions.dll
@@ -31,6 +31,7 @@ D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.DotNet.PlatformAbstra
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.Data.Sqlite.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.Extensions.DependencyModel.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\SQLitePCLRaw.core.dll
+D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.Extensions.Configuration.Abstractions.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.Extensions.Primitives.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Newtonsoft.Json.dll
@@ -78,8 +79,6 @@ D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.GeneratedMSBuild
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.csproj.CoreCompileInputs.cache
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.csproj.Fody.CopyLocal.cache
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.csproj.Fody.RuntimeCopyLocal.cache
-D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.csproj.CopyComplete
+D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyP.C75D8C04.Up2Date
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.pdb
-D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\SQLitePCLRaw.batteries_v2.dll
-D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll

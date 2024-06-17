@@ -1,13 +1,8 @@
-﻿using Comm.sqlite.CMD;
-using Comm.sqlite.Interfaces;
-using Comm.sqlite.Models;
-using Comm.sqlite.Services;
-using CompanyProject.ViewModels.Pages;
+﻿using CompanyProject.ViewModels.Pages;
 using CompanyProject.Views.Pages;
 using MainProject.Services;
 using MainProject.ViewModels;
 using MainProject.Views;
-using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
@@ -16,7 +11,10 @@ using System.Reflection;
 using System.Windows;
 using System.Windows.Threading;
 using Wpf.Ui;
-using Wpf.Ui.Controls;
+using Comm.sqlite.CMD;
+using Comm.sqlite.Interfaces;
+using Comm.sqlite.Models;
+using Comm.sqlite.Services;
 
 namespace MainProject
 {

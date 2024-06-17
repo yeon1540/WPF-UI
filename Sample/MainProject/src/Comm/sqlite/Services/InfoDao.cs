@@ -8,12 +8,12 @@ namespace Comm.sqlite.Services
 {
     public class InfoDao : IDataBase<Info>
     {
-        private readonly DefaultContext defaultContext;
-        private Info info = new Info();
+        private readonly DefaultContext _defaultContext;
+        private Info info;
 
         public InfoDao(DefaultContext defaultContext)
         {
-            this.defaultContext = defaultContext;
+            this._defaultContext = defaultContext;
         }
 
         #region 조회
@@ -24,7 +24,7 @@ namespace Comm.sqlite.Services
         /// <returns></returns>
         public List<Info> Get()
         {
-            return this.defaultContext.Info.ToList();
+            return this._defaultContext.Info.ToList();
         }
 
         /// <summary>
@@ -34,7 +34,7 @@ namespace Comm.sqlite.Services
         /// <returns></returns>
         public Info GetDetail(string sID)
         {
-            this.info = this.defaultContext.Info.Find(sID);
+            this.info = this._defaultContext.Info.Find(sID);
 
             if (this.info != null)
             {
@@ -52,7 +52,7 @@ namespace Comm.sqlite.Services
         /// <returns></returns>
         public List<Info> AscOrderByGet()
         {
-            return this.defaultContext.Info.OrderBy(info => info.Id).ToList();
+            return this._defaultContext.Info.OrderBy(info => info.Id).ToList();
         }
 
         /// <summary>
@@ -61,7 +61,7 @@ namespace Comm.sqlite.Services
         /// <returns></returns>
         public List<Info> DesOrderByGet()
         {
-            return this.defaultContext.Info.OrderByDescending(info => info.Id).ToList();
+            return this._defaultContext.Info.OrderByDescending(info => info.Id).ToList();
         }
 
         #endregion
@@ -77,15 +77,15 @@ namespace Comm.sqlite.Services
         {
             Info col = new Info();
 
-            this.info = this.defaultContext.Info.Find(sID);
+            this.info = this._defaultContext.Info.Find(sID);
 
             if (this.info == null)
             {
                 col.Id = sID;
                 col.Comment = sData;
 
-                this.defaultContext.Info.Add(col);
-                this.defaultContext.SaveChanges();
+                this._defaultContext.Info.Add(col);
+                this._defaultContext.SaveChanges();
             }
             else
             {
@@ -104,14 +104,14 @@ namespace Comm.sqlite.Services
         /// <param name="sData"></param>
         public void Update(string sID, string sData)
         {
-            this.info = this.defaultContext.Info.Find(sID);
+            this.info = this._defaultContext.Info.Find(sID);
 
             if (this.info != null)
             {
                 this.info.Comment = sData;
 
-                this.defaultContext.Info.Update(this.info);
-                this.defaultContext.SaveChanges();
+                this._defaultContext.Info.Update(this.info);
+                this._defaultContext.SaveChanges();
             }
             else
             {
@@ -127,14 +127,14 @@ namespace Comm.sqlite.Services
         {
             foreach (var sID in List.Id)
             {
-                this.info = this.defaultContext.Info.Find(sID);
+                this.info = this._defaultContext.Info.Find(sID);
 
                 if (this.info != null)
                 {
                     this.info.Comment = List.Comment;
 
-                    this.defaultContext.Info.Update(this.info);
-                    this.defaultContext.SaveChanges();
+                    this._defaultContext.Info.Update(this.info);
+                    this._defaultContext.SaveChanges();
                 }
             }
         }
@@ -149,12 +149,12 @@ namespace Comm.sqlite.Services
         /// <param name="sID"></param>
         public void Delete(string sID)
         {
-            this.info = this.defaultContext.Info.Find(sID);
+            this.info = this._defaultContext.Info.Find(sID);
 
             if (this.info != null)
             {
-                this.defaultContext.Info.Remove(this.info);
-                this.defaultContext.SaveChanges();
+                this._defaultContext.Info.Remove(this.info);
+                this._defaultContext.SaveChanges();
             }
             else
             {

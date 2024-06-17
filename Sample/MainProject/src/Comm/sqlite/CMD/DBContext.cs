@@ -1,7 +1,5 @@
-﻿using Comm.sqlite.Interfaces;
-using Comm.sqlite.Models;
+﻿using Comm.sqlite.Models;
 using Microsoft.Extensions.DependencyInjection;
-using System;
 
 namespace Comm.sqlite.CMD
 {
