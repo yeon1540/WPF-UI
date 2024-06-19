@@ -79,6 +79,6 @@ D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.GeneratedMSBuild
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.csproj.CoreCompileInputs.cache
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.csproj.Fody.CopyLocal.cache
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.csproj.Fody.RuntimeCopyLocal.cache
-D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyP.C75D8C04.Up2Date
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.pdb
+D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.csproj.CopyComplete

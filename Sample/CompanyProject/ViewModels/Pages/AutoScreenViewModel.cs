@@ -24,7 +24,8 @@ namespace CompanyProject.ViewModels.Pages
 
         private void ExecuteMyCommand()
         {
-            _dataBase.Insert("길동이", "1234");
+            //_dataBase.Insert("길동이", "1234");
+            _dataBase.Delete("길동이");
         }
     }
 }

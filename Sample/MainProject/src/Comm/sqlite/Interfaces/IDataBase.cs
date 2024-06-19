@@ -21,6 +21,13 @@ namespace Comm.sqlite.Interfaces
         T GetDetail(string sID);
 
         /// <summary>
+        /// ID로 특정 데이터 조회
+        /// </summary>
+        /// <param name="sID"></param>
+        /// <returns></returns>
+        string GetData(string sID);
+
+        /// <summary>
         /// ID기준으로 오름차순으로 리스트 가져오기
         /// </summary>
         /// <returns></returns>

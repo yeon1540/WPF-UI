@@ -130,6 +130,6 @@ D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\MainProject.GeneratedMSBuildEditor
 D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\MainProject.csproj.CoreCompileInputs.cache
 D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\MainProject.csproj.Fody.CopyLocal.cache
 D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\MainProject.csproj.Fody.RuntimeCopyLocal.cache
-D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\MainProj.90D20194.Up2Date
 D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\MainProject.exe
 D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\MainProject.pdb
+D:\GitHub\WPF-UI\Sample\MainProject\obj\Debug\MainProject.csproj.CopyComplete

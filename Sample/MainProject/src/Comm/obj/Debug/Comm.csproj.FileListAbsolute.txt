@@ -70,6 +70,6 @@ D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\bin\Debug\System.Runtime.CompilerSe
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\obj\Debug\Comm.csproj.AssemblyReference.cache
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\obj\Debug\Comm.csproj.CoreCompileInputs.cache
-D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\obj\Debug\Comm.csproj.Up2Date
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\obj\Debug\Comm.dll
 D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\obj\Debug\Comm.pdb
+D:\GitHub\WPF-UI\Sample\MainProject\src\Comm\obj\Debug\Comm.csproj.CopyComplete

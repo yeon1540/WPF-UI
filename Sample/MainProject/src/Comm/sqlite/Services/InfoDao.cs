@@ -3,6 +3,7 @@ using Comm.sqlite.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Threading.Tasks;
 
 namespace Comm.sqlite.Services
 {
@@ -39,6 +40,25 @@ namespace Comm.sqlite.Services
             if (this.info != null)
             {
                 return this.info;
+            }
+            else
+            {
+                throw new NotImplementedException();
+            }
+        }
+
+        /// <summary>
+        /// 특정 항목 가져오기
+        /// </summary>
+        /// <param name="sID"></param>
+        /// <returns></returns>
+        public string GetData(string sID)
+        {
+            this.info = this._defaultContext.Info.Find(sID);
+
+            if (this.info != null)
+            {
+                return this.info.Comment;
             }
             else
             {
