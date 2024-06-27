@@ -7,9 +7,12 @@ using System.Collections.Generic;
 
 namespace Comm.sqlite.Models
 {
-    public partial class Info
+    public partial class ScreenInfo
     {
         public string Id { get; set; }
-        public string Comment { get; set; }
+        public long Auto { get; set; }
+        public long Manual { get; set; }
+        public long Recipe { get; set; }
+        public long System { get; set; }
     }
 }

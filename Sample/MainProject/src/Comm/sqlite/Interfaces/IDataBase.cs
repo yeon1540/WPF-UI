@@ -1,43 +1,44 @@
-﻿using Comm.sqlite.Models;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace Comm.sqlite.Interfaces
 {
-    public interface IDataBase<T>
+    public interface IDataBase<T> where T : class
     {
         #region 조회
+
+        List<T> GetAll();
 
         /// <summary>
         /// 모든 데이터 조회
         /// </summary>
         /// <returns></returns>
-        List<T> Get();
+        //List<T> Get();
 
         /// <summary>
         /// ID로 특정 데이터 조회
         /// </summary>
         /// <param name="sID"></param>
         /// <returns></returns>
-        T GetDetail(string sID);
+        //T GetDetail(string sID);
 
-        /// <summary>
-        /// ID로 특정 데이터 조회
-        /// </summary>
-        /// <param name="sID"></param>
-        /// <returns></returns>
-        string GetData(string sID);
+        ///// <summary>
+        ///// ID로 특정 데이터 조회
+        ///// </summary>
+        ///// <param name="sID"></param>
+        ///// <returns></returns>
+        //string GetData(string sID);
 
-        /// <summary>
-        /// ID기준으로 오름차순으로 리스트 가져오기
-        /// </summary>
-        /// <returns></returns>
-        List<T> AscOrderByGet();
+        ///// <summary>
+        ///// ID기준으로 오름차순으로 리스트 가져오기
+        ///// </summary>
+        ///// <returns></returns>
+        //List<T> AscOrderByGet();
 
-        /// <summary>
-        /// ID기준으로 내림차순으로 리스트 가져오기
-        /// </summary>
-        /// <returns></returns>
-        List<T> DesOrderByGet();
+        ///// <summary>
+        ///// ID기준으로 내림차순으로 리스트 가져오기
+        ///// </summary>
+        ///// <returns></returns>
+        //List<T> DesOrderByGet();
 
         #endregion
 
@@ -47,7 +48,7 @@ namespace Comm.sqlite.Interfaces
         /// 데이터 추가
         /// </summary>
         /// <param name="entity"></param>
-        void Insert(string sID, string sData);
+        //void Insert(string sID, string sData);
 
         #endregion
 
@@ -57,13 +58,13 @@ namespace Comm.sqlite.Interfaces
         /// 데이터 업데이트
         /// </summary>
         /// <param name="entity"></param>
-        void Update(string sID, string sData);
+        //void Update(string sID, string sData);
 
         /// <summary>
         /// 데이터 업데이트
         /// </summary>
-        /// <param name="info"></param>
-        void Update(Info info);
+        /// <param name="sData"></param>
+        //void Update(T sData);
 
         #endregion
 
@@ -73,7 +74,7 @@ namespace Comm.sqlite.Interfaces
         /// 특정 데이터 삭제
         /// </summary>
         /// <param name="sID"></param>
-        void Delete(string sID);
+        //void Delete(string sID);
 
         #endregion
     }

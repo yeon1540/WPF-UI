@@ -1,4 +1,9 @@
-﻿using CompanyProject.ViewModels.Pages;
+﻿using Comm.sqlite.CMD;
+using Comm.sqlite.Interfaces;
+using Comm.sqlite.Models;
+using Comm.sqlite.Services;
+using CompanyProject.Config;
+using CompanyProject.ViewModels.Pages;
 using CompanyProject.Views.Pages;
 using MainProject.Services;
 using MainProject.ViewModels;
@@ -11,10 +16,6 @@ using System.Reflection;
 using System.Windows;
 using System.Windows.Threading;
 using Wpf.Ui;
-using Comm.sqlite.CMD;
-using Comm.sqlite.Interfaces;
-using Comm.sqlite.Models;
-using Comm.sqlite.Services;
 
 namespace MainProject
 {
@@ -59,19 +60,37 @@ namespace MainProject
 
                 services.AddSingleton<AutoScreen>();
                 services.AddSingleton<AutoScreenViewModel>();
+                //services.AddSingleton<AutoScreenViewModel>(provider =>
+                //{
+                //    var viewModel = new AutoScreenViewModel();
+                //    viewModel.Eqpinfo = provider.GetRequiredService<IDataBase<Eqpinfo>>();
+                //    return viewModel;
+                //});
 
                 #endregion
 
                 #region 인터페이스에 대한 구현 등록
 
-                services.AddSingleton<IDataBase<Info>, InfoDao>();
+                //services.AddSingleton<IDataBase<Info>, InfoDao>();
+                services.AddScoped(typeof(IDataBase<>), typeof(CRUD<>));
 
                 #endregion
 
                 #region DB 관련
 
-                DBContext dBContext = new DBContext();
+                InitSetting dBContext = new InitSetting();
                 services = dBContext.AddContext(services);
+
+                #endregion
+
+                #region SqlManager 등록 및 프로퍼티 주입
+
+                services.AddSingleton<SqlManager>(provider =>
+                {
+                    var sqlManager = new SqlManager();
+                    sqlManager.Eqpinfo = provider.GetRequiredService<IDataBase<Eqpinfo>>();
+                    return sqlManager;
+                });
 
                 #endregion
 
@@ -89,8 +108,6 @@ namespace MainProject
         private void OnStartup(object sender, StartupEventArgs e)
         {
             _host.Start();
-            DBContext dBContext = new DBContext();
-            dBContext.SQLitePCLBatteriesInit();
         }
 
         /// <summary>

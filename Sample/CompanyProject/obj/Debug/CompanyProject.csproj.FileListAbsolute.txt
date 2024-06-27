@@ -1,4 +1,7 @@
+D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\System.Memory.dll
+D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Wpf.Ui.xml
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\e_sqlite3.dll
+D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\README.txt
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\CompanyProject.dll.config
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\CompanyProject.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\CompanyProject.pdb
@@ -7,7 +10,6 @@ D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\CommunityToolkit.Mvvm.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\System.Buffers.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\System.ComponentModel.Annotations.dll
-D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\System.Memory.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\System.Numerics.Vectors.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\System.Threading.Tasks.Extensions.dll
@@ -46,7 +48,6 @@ D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\System.Numerics.Vectors.xml
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\System.Threading.Tasks.Extensions.xml
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Wpf.Ui.pdb
-D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Wpf.Ui.xml
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.EntityFrameworkCore.xml
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
 D:\GitHub\WPF-UI\Sample\CompanyProject\bin\Debug\Microsoft.EntityFrameworkCore.Sqlite.xml
@@ -79,6 +80,6 @@ D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.GeneratedMSBuild
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.csproj.CoreCompileInputs.cache
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.csproj.Fody.CopyLocal.cache
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.csproj.Fody.RuntimeCopyLocal.cache
+D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.csproj.CopyComplete
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.dll
 D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.pdb
-D:\GitHub\WPF-UI\Sample\CompanyProject\obj\Debug\CompanyProject.csproj.CopyComplete

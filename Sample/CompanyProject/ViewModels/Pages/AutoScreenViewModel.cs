@@ -1,7 +1,6 @@
-﻿using Comm.sqlite.Interfaces;
-using Comm.sqlite.Models;
-using CommunityToolkit.Mvvm.ComponentModel;
+﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using CompanyProject.Config;
 using PropertyChanged;
 using System.Windows.Input;
 
@@ -9,23 +8,21 @@ namespace CompanyProject.ViewModels.Pages
 {
     [AddINotifyPropertyChangedInterface]
     public partial class AutoScreenViewModel : ObservableObject
-    {
-        private readonly IDataBase<Info> _dataBase;
-
+{
         public ICommand MyCommand { get; }
+        private SqlManager _sql;
 
-        public AutoScreenViewModel(IDataBase<Info> dataBase)
+        public AutoScreenViewModel(SqlManager sql)
         {
-            this._dataBase = dataBase;
+            _sql = sql;
 
-            // RelayCommand 초기화 및 명령 실행 메서드 지정
+            //RelayCommand
             MyCommand = new RelayCommand(ExecuteMyCommand);
         }
 
         private void ExecuteMyCommand()
         {
-            //_dataBase.Insert("길동이", "1234");
-            _dataBase.Delete("길동이");
+            var value = _sql.Eqpinfo.GetAll();
         }
     }
 }
