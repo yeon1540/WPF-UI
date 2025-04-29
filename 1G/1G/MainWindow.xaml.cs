@@ -23,11 +23,6 @@ namespace _1G
         public MainWindow()
         {
             InitializeComponent();
-
-            this.SizeToContent = SizeToContent.Manual;
-            this.SizeToContent = SizeToContent.Width;
-            this.SizeToContent = SizeToContent.Height;
-            this.SizeToContent = SizeToContent.WidthAndHeight;
         }
     }
 }
