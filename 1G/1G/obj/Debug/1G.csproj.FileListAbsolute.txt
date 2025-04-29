@@ -1,0 +1,15 @@
+D:\GitHub\WPF-UI\1G\1G\bin\Debug\1G.exe.config
+D:\GitHub\WPF-UI\1G\1G\bin\Debug\1G.exe
+D:\GitHub\WPF-UI\1G\1G\bin\Debug\1G.pdb
+D:\GitHub\WPF-UI\1G\1G\obj\Debug\1G.csproj.AssemblyReference.cache
+D:\GitHub\WPF-UI\1G\1G\obj\Debug\MainWindow.g.cs
+D:\GitHub\WPF-UI\1G\1G\obj\Debug\App.g.cs
+D:\GitHub\WPF-UI\1G\1G\obj\Debug\1G_MarkupCompile.cache
+D:\GitHub\WPF-UI\1G\1G\obj\Debug\1G_MarkupCompile.lref
+D:\GitHub\WPF-UI\1G\1G\obj\Debug\MainWindow.baml
+D:\GitHub\WPF-UI\1G\1G\obj\Debug\1G.g.resources
+D:\GitHub\WPF-UI\1G\1G\obj\Debug\_1G.Properties.Resources.resources
+D:\GitHub\WPF-UI\1G\1G\obj\Debug\1G.csproj.GenerateResource.cache
+D:\GitHub\WPF-UI\1G\1G\obj\Debug\1G.csproj.CoreCompileInputs.cache
+D:\GitHub\WPF-UI\1G\1G\obj\Debug\1G.exe
+D:\GitHub\WPF-UI\1G\1G\obj\Debug\1G.pdb
