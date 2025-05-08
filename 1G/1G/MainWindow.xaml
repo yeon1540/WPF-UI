@@ -6,11 +6,13 @@
         xmlns:local="clr-namespace:_1G"
         mc:Ignorable="d"
         Title="NTS_1AxisGrinder" Height="768" Width="1024"
-        Topmost="True" WindowStyle="None" ResizeMode="NoResize">
+        Topmost="True" WindowStyle="None" ResizeMode="NoResize"
+        WindowStartupLocation="CenterScreen">
     <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="17*"/>
-            <ColumnDefinition Width="5*"/>
-        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
     </Grid>
 </Window>
