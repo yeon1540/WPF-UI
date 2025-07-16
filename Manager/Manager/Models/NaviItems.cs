@@ -2,7 +2,7 @@
 
 namespace Manager.Models
 {
-    public class MenuItem
+    public class NaviItems
     {
         public string Icon { get; set; }
         public string Text { get; set; }

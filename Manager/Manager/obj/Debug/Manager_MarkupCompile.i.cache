@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\GitHub\WPF-UI\Manager\Manager\App.xaml
-2-1811824446
+6392632369
 
-8-1934714482
-29272679420
-MainWindow.xaml;Resources\MenuStyles.xaml;
+101592248782
+33-1776220092
+MainWindow.xaml;Views\HomeView.xaml;Resources\Colors.xaml;Resources\Styles.xaml;Resources\DataTemplates.xaml;Views\SettingView.xaml;
 
 True
 
