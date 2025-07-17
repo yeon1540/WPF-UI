@@ -1,10 +1,8 @@
 ﻿using Manager.Models;
 using Prism.Commands;
 using Prism.Mvvm;
-using Prism.Navigation.Regions;
 using System.Collections.ObjectModel;
 using System.Windows;
-using System.Windows.Input;
 
 namespace Manager.ViewModels
 {
@@ -45,29 +43,6 @@ namespace Manager.ViewModels
         private void OnExitClicked()
         {
             Application.Current.Shutdown();
-        }
-
-        #endregion
-
-        #region Prism Region Manager
-
-        private readonly IRegionManager _regionManager;
-
-        public DelegateCommand NavigateHomeCommand { get; }
-        public DelegateCommand NavigateSettingCommand { get; }
-
-        public MainViewModel(IRegionManager regionManager)
-        {
-            _regionManager = regionManager;
-
-            NavigateHomeCommand = new DelegateCommand(() =>
-                _regionManager.RequestNavigate("ContentRegion", "HomeView"));
-
-            NavigateSettingCommand = new DelegateCommand(() =>
-                _regionManager.RequestNavigate("ContentRegion", "SettingsView"));
-
-            // 앱 시작 시 기본 View
-            _regionManager.RequestNavigate("ContentRegion", "HomeView");
         }
 
         #endregion
