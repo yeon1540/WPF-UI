@@ -1,8 +1,9 @@
-﻿using Manager.Models;
-using Prism.Commands;
+﻿using Prism.Commands;
 using Prism.Mvvm;
 using System.Collections.ObjectModel;
 using System.Windows;
+using TeamManager.Models;
+
 
 namespace Manager.ViewModels
 {

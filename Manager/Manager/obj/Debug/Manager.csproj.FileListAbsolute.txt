@@ -61,3 +61,4 @@ D:\GitHub\WPF-UI\Manager\Manager\obj\Debug\Manager.csproj.CoreCompileInputs.cach
 D:\GitHub\WPF-UI\Manager\Manager\obj\Debug\Manager.csproj.CopyComplete
 D:\GitHub\WPF-UI\Manager\Manager\obj\Debug\Manager.exe
 D:\GitHub\WPF-UI\Manager\Manager\obj\Debug\Manager.pdb
+D:\GitHub\WPF-UI\Manager\Manager\obj\Debug\Manager.csproj.AssemblyReference.cache
