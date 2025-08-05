@@ -3,11 +3,11 @@
 
     <DataTemplate x:Key="MenuItemTemplate">
         <Button Command="{Binding Command}"
-                Background="Transparent"
-                BorderThickness="0"
-                Padding="10"
-                HorizontalAlignment="Stretch"
-                HorizontalContentAlignment="Left">
+            Background="Transparent"
+            BorderThickness="0"
+            Padding="10"
+            HorizontalAlignment="Stretch"
+            HorizontalContentAlignment="Left">
             <StackPanel Orientation="Horizontal">
                 <Image Source="{Binding Icon}" Width="20" Height="20"/>
                 <TextBlock Text="{Binding Text}" Margin="10,0,0,0" VerticalAlignment="Center"/>

@@ -1,0 +1,61 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\GitHub\\WPF-UI\\TeamManager\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{55E190A2-CADD-4C8E-849A-0D47FC56B08C}|TeamManager\\TeamManager.csproj|d:\\github\\wpf-ui\\teammanager\\teammanager\\views\\productview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{55E190A2-CADD-4C8E-849A-0D47FC56B08C}|TeamManager\\TeamManager.csproj|solutionrelative:teammanager\\views\\productview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E190A2-CADD-4C8E-849A-0D47FC56B08C}|TeamManager\\TeamManager.csproj|d:\\github\\wpf-ui\\teammanager\\teammanager\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E190A2-CADD-4C8E-849A-0D47FC56B08C}|TeamManager\\TeamManager.csproj|solutionrelative:teammanager\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductView.xaml",
+              "DocumentMoniker": "D:\\GitHub\\WPF-UI\\TeamManager\\TeamManager\\Views\\ProductView.xaml",
+              "RelativeDocumentMoniker": "TeamManager\\Views\\ProductView.xaml",
+              "ToolTip": "D:\\GitHub\\WPF-UI\\TeamManager\\TeamManager\\Views\\ProductView.xaml",
+              "RelativeToolTip": "TeamManager\\Views\\ProductView.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-08-05T13:41:53.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\WPF-UI\\TeamManager\\TeamManager\\ViewModels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "TeamManager\\ViewModels\\ProductViewModel.cs",
+              "ToolTip": "D:\\GitHub\\WPF-UI\\TeamManager\\TeamManager\\ViewModels\\ProductViewModel.cs",
+              "RelativeToolTip": "TeamManager\\ViewModels\\ProductViewModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-04T14:55:14.87Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

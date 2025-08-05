@@ -1,17 +1,27 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows;
+﻿using System.Windows;
+using Prism.Ioc;
+using TeamManager.Views;
 
 namespace TeamManager
 {
     /// <summary>
-    /// App.xaml에 대한 상호 작용 논리
+    /// Interaction logic for App.xaml
     /// </summary>
-    public partial class App : Application
+    public partial class App
     {
+        protected override Window CreateShell()
+        {
+            //창 생성
+            return Container.Resolve<MainWindow>();
+        }
+
+        protected override void RegisterTypes(IContainerRegistry containerRegistry)
+        {
+            //View 등록
+            containerRegistry.RegisterForNavigation<HomeView>();
+            containerRegistry.RegisterForNavigation<SettingView>();
+            containerRegistry.RegisterForNavigation<BOMView>();
+            containerRegistry.RegisterForNavigation<ProductView>();
+        }
     }
 }

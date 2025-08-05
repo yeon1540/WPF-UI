@@ -1,0 +1,44 @@
+﻿<UserControl x:Class="TeamManager.Views.ProductView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:vm="clr-namespace:TeamManager.ViewModels"
+             xmlns:local="clr-namespace:TeamManager.Views"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="80"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="30"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Grid.RowSpan="5" HorizontalAlignment="Center">
+            <TextBlock Text="품목코드" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15"
+                       Margin="10, 0, 0, 10"/>
+            <TextBlock Text="품목명" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15"
+                       Margin="10, 0, 0, 10"/>
+            <TextBlock Text="메이커" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15"
+                       Margin="10, 0, 0, 10"/>
+        </StackPanel>
+
+        <StackPanel Grid.Column="1" Grid.RowSpan="5" HorizontalAlignment="Center">
+            <TextBox Width="80" Height="20" Margin="0, 0, 0, 10"
+                     Text="{Binding ItemCode}"/>
+            <TextBox Width="80" Height="20" Margin="0, 0, 0, 10"
+                     Text="{Binding ItemName}"/>
+            <TextBox Width="80" Height="20" Margin="0, 0, 0, 10"
+                     Text="{Binding ItemMaker}"/>
+            <Button Content="품목등록" Command="{Binding ProductAddCommand}" Width="80" Height="20"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
