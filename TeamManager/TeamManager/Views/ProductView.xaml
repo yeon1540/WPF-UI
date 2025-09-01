@@ -7,38 +7,50 @@
              xmlns:local="clr-namespace:TeamManager.Views"
              mc:Ignorable="d" 
              d:DesignHeight="450" d:DesignWidth="800">
-    <Grid>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="80"/>
-            <ColumnDefinition Width="80"/>
-            <ColumnDefinition Width="*"/>
-        </Grid.ColumnDefinitions>
+    <TabControl>
+        <!--품목 등록-->
+        <TabItem Header="품목 등록">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
 
-        <Grid.RowDefinitions>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="30"/>
-            <RowDefinition Height="*"/>
-        </Grid.RowDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="500"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
 
-        <StackPanel Grid.Row="0" Grid.RowSpan="5" HorizontalAlignment="Center">
-            <TextBlock Text="품목코드" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15"
-                       Margin="10, 0, 0, 10"/>
-            <TextBlock Text="품목명" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15"
-                       Margin="10, 0, 0, 10"/>
-            <TextBlock Text="메이커" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="15"
-                       Margin="10, 0, 0, 10"/>
-        </StackPanel>
+                <StackPanel Grid.Column="0" Orientation="Vertical">
+                    <TextBlock Text="종류" VerticalAlignment="Center" TextAlignment="Center"/>
+                    <TextBox x:Name="txtCategory" Style="{StaticResource WatermarkedTextBox}" Tag="종류" FontSize="20"
+                             HorizontalContentAlignment="Center" TextAlignment="Center"
+                             Text="{Binding Category}"/>
+                    <Button Content="등록" FontSize="20" Command="{Binding CategoryAddCommand}"/>
 
-        <StackPanel Grid.Column="1" Grid.RowSpan="5" HorizontalAlignment="Center">
-            <TextBox Width="80" Height="20" Margin="0, 0, 0, 10"
-                     Text="{Binding ItemCode}"/>
-            <TextBox Width="80" Height="20" Margin="0, 0, 0, 10"
-                     Text="{Binding ItemName}"/>
-            <TextBox Width="80" Height="20" Margin="0, 0, 0, 10"
-                     Text="{Binding ItemMaker}"/>
-            <Button Content="품목등록" Command="{Binding ProductAddCommand}" Width="80" Height="20"/>
-        </StackPanel>
-    </Grid>
+                    <TextBlock Text="아이템" VerticalAlignment="Center" TextAlignment="Center"/>
+                    <TextBox x:Name="txtItemCode" Style="{StaticResource WatermarkedTextBox}" Tag="품목코드," FontSize="20"
+                              HorizontalContentAlignment="Center" TextAlignment="Center"
+                              Text="{Binding ItemCode}"/>
+                    <TextBox x:Name="txtItemName" Style="{StaticResource WatermarkedTextBox}" Tag="품목명" FontSize="20"
+                              HorizontalContentAlignment="Center" TextAlignment="Center"
+                              Text="{Binding ItemName}"/>
+                    <TextBox x:Name="txtItemMaker" Style="{StaticResource WatermarkedTextBox}" Tag="메이커" FontSize="20"
+                              HorizontalContentAlignment="Center" TextAlignment="Center"
+                              Text="{Binding ItemMaker}"/>
+                    <Button Content="등록" FontSize="20" Command="{Binding ProductAddCommand}"/>
+                </StackPanel>
+            </Grid>
+        </TabItem>
+
+        <!--품목 검색-->
+        <TabItem Header="품목 검색">
+
+        </TabItem>
+
+        <!--BOM 리스트 등록-->
+        <TabItem Header="BOM 리스트 등록">
+
+        </TabItem>
+    </TabControl>
 </UserControl>

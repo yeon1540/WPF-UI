@@ -8,9 +8,6 @@
     <Compile Update="Views\HomeView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Update="Views\BOMView.xaml.cs">
-      <SubType>Code</SubType>
-    </Compile>
     <Compile Update="Views\SettingView.xaml.cs">
       <SubType>Code</SubType>
     </Compile>

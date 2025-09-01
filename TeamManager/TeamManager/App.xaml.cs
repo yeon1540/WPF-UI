@@ -20,7 +20,6 @@ namespace TeamManager
             //View 등록
             containerRegistry.RegisterForNavigation<HomeView>();
             containerRegistry.RegisterForNavigation<SettingView>();
-            containerRegistry.RegisterForNavigation<BOMView>();
             containerRegistry.RegisterForNavigation<ProductView>();
         }
     }

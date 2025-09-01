@@ -1,4 +1,5 @@
-﻿using Prism.Commands;
+﻿using DryIoc;
+using Prism.Commands;
 using Prism.Mvvm;
 using TeamManager.Data;
 using TeamManager.Data.Entity;
@@ -7,31 +8,39 @@ namespace TeamManager.ViewModels
 {
     public class ProductViewModel : BindableBase
     {
+        SqlManager _sql = new SqlManager();
+
+        Item items = new Item();
+
         public DelegateCommand ProductAddCommand { get; set; }
-        public string ItemCode { get; set; }
-        public string ItemName { get; set; }
-        public string ItemMaker { get; set; }
 
         public ProductViewModel()
         {
             ProductAddCommand = new DelegateCommand(() => ProductADD());
+            CategoryAddCommand = new DelegateCommand(() => CategoryADD());
         }
 
         private void ProductADD()
         {
-            using (var db = new TeamManagerDbContext())
-            {
-                var items = new Item
-                {
-                    ItemId = 1,
-                    ItemCode = ItemCode,
-                    ItemName = ItemName,
-                    ItemMaker = ItemMaker
-                };
+            items.ItemCode = "1";
+            items.ItemMaker = "미쯔비시";
+            items.ItemName = "차단기";
 
-                db.Items.Add(items);
-                db.SaveChanges();
-            }
+            _sql.ItemsRepo.Insert(items);
+        }
+
+        public DelegateCommand CategoryAddCommand { get; set; }
+        public string Category { get; set; }
+
+        private void CategoryADD()
+        {
+            var itemsCategorys = new ItemCategory
+            {
+                Category = Category
+            };
+
+            _sql.ItemCategorys.Add(itemsCategorys);
+            _sql.SaveChanges();
         }
     }
 }

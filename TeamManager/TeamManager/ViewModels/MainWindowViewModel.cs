@@ -39,7 +39,6 @@ namespace TeamManager.ViewModels
             {
                 new MenuItems { Icon = "https://cdn-icons-png.flaticon.com/512/1828/1828859.png", Text = "HOME", Command = new DelegateCommand(() => NavigateTo("HOME"))},
                 new MenuItems { Icon = "https://cdn-icons-png.flaticon.com/512/1828/1828817.png", Text = "PRODUCT", Command = new DelegateCommand(() => NavigateTo("PRODUCT"))},
-                new MenuItems { Icon = "https://cdn-icons-png.flaticon.com/512/622/622669.png", Text = "BOM", Command = new DelegateCommand(() => NavigateTo("BOM"))},
                 new MenuItems { Icon = "https://cdn-icons-png.flaticon.com/512/2099/2099058.png", Text = "SETTING", Command = new DelegateCommand(() => NavigateTo("SETTING"))},
                 new MenuItems { Icon = "https://cdn-icons-png.flaticon.com/512/1828/1828490.png", Text = "EXIT", Command = new DelegateCommand(() => NavigateTo("EXIT"))}
             };
@@ -51,10 +50,6 @@ namespace TeamManager.ViewModels
             {
                 case "HOME":
                     _regionManager.RequestNavigate("ContentRegion", "HomeView");
-                    break;
-
-                case "BOM":
-                    _regionManager.RequestNavigate("ContentRegion", "BOMView");
                     break;
 
                 case "PRODUCT":
