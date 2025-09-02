@@ -16,5 +16,19 @@ namespace TeamManager.Data.Repositories
         {
             return _sqlcmd.Save(item);
         }
+
+        public bool GetDataA(string pk, string data)
+        {
+            if (_sqlcmd.Get<Item>(pk) == null)
+            {
+                Item item = new Item();
+                item.ItemCode = pk;
+                item.ItemName = data;
+                item.ItemMaker = "";
+
+                return _sqlcmd.Save(item);
+            }
+            else return false;
+        }
     }
 }

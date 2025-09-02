@@ -32,12 +32,12 @@ namespace TeamManager.Data
 
         #region 조회
 
-        protected T Get<T>(object key) where T : class
+        public T Get<T>(object key) where T : class
         {
             return _db.Set<T>().Find(key);
         }
 
-        protected bool Update<T>(T entity) where T : class
+        public bool Update<T>(T entity) where T : class
         {
             try
             {
@@ -52,7 +52,7 @@ namespace TeamManager.Data
             }
         }
 
-        protected IList<T> GetList<T>() where T : class
+        public IList<T> GetList<T>() where T : class
         {
             return _db.Set<T>().ToList();
         }
@@ -61,7 +61,7 @@ namespace TeamManager.Data
 
         #region 삭제
 
-        protected bool Delete<T>(T entity) where T : class
+        public bool Delete<T>(T entity) where T : class
         {
             try
             {

@@ -7,6 +7,10 @@
       "RelativeMoniker": "D:0:0:{55E190A2-CADD-4C8E-849A-0D47FC56B08C}|TeamManager\\TeamManager.csproj|solutionrelative:teammanager\\data\\repositories\\itemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{55E190A2-CADD-4C8E-849A-0D47FC56B08C}|TeamManager\\TeamManager.csproj|d:\\github\\wpf-ui\\teammanager\\teammanager\\data\\sqlcmd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E190A2-CADD-4C8E-849A-0D47FC56B08C}|TeamManager\\TeamManager.csproj|solutionrelative:teammanager\\data\\sqlcmd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{55E190A2-CADD-4C8E-849A-0D47FC56B08C}|TeamManager\\TeamManager.csproj|d:\\github\\wpf-ui\\teammanager\\teammanager\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55E190A2-CADD-4C8E-849A-0D47FC56B08C}|TeamManager\\TeamManager.csproj|solutionrelative:teammanager\\viewmodels\\productviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,15 +34,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ProductViewModel.cs",
               "DocumentMoniker": "D:\\GitHub\\WPF-UI\\TeamManager\\TeamManager\\ViewModels\\ProductViewModel.cs",
               "RelativeDocumentMoniker": "TeamManager\\ViewModels\\ProductViewModel.cs",
               "ToolTip": "D:\\GitHub\\WPF-UI\\TeamManager\\TeamManager\\ViewModels\\ProductViewModel.cs",
               "RelativeToolTip": "TeamManager\\ViewModels\\ProductViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAjwBwAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T14:32:48.764Z",
+              "WhenOpened": "2025-09-02T14:47:39.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "sqlCMD.cs",
+              "DocumentMoniker": "D:\\GitHub\\WPF-UI\\TeamManager\\TeamManager\\Data\\sqlCMD.cs",
+              "RelativeDocumentMoniker": "TeamManager\\Data\\sqlCMD.cs",
+              "ToolTip": "D:\\GitHub\\WPF-UI\\TeamManager\\TeamManager\\Data\\sqlCMD.cs",
+              "RelativeToolTip": "TeamManager\\Data\\sqlCMD.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T14:38:01.707Z",
               "EditorCaption": ""
             },
             {
@@ -49,7 +66,7 @@
               "RelativeDocumentMoniker": "TeamManager\\Data\\Repositories\\ItemRepo.cs",
               "ToolTip": "D:\\GitHub\\WPF-UI\\TeamManager\\TeamManager\\Data\\Repositories\\ItemRepo.cs",
               "RelativeToolTip": "TeamManager\\Data\\Repositories\\ItemRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAhwBMAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-01T14:32:38.827Z",
               "EditorCaption": ""

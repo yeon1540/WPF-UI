@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{55E190A2-CADD-4C8E-849A-0D47FC56B08C}|TeamManager\\TeamManager.csproj|d:\\github\\wpf-ui\\teammanager\\teammanager\\data\\repositories\\itemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{55E190A2-CADD-4C8E-849A-0D47FC56B08C}|TeamManager\\TeamManager.csproj|solutionrelative:teammanager\\data\\repositories\\itemrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55E190A2-CADD-4C8E-849A-0D47FC56B08C}|TeamManager\\TeamManager.csproj|d:\\github\\wpf-ui\\teammanager\\teammanager\\data\\sqlcmd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55E190A2-CADD-4C8E-849A-0D47FC56B08C}|TeamManager\\TeamManager.csproj|solutionrelative:teammanager\\data\\sqlcmd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,21 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProductViewModel.cs",
-              "DocumentMoniker": "D:\\GitHub\\WPF-UI\\TeamManager\\TeamManager\\ViewModels\\ProductViewModel.cs",
-              "RelativeDocumentMoniker": "TeamManager\\ViewModels\\ProductViewModel.cs",
-              "ToolTip": "D:\\GitHub\\WPF-UI\\TeamManager\\TeamManager\\ViewModels\\ProductViewModel.cs",
-              "RelativeToolTip": "TeamManager\\ViewModels\\ProductViewModel.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAjwBwAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-01T14:32:48.764Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{25f7e850-ffa1-11d0-b63f-00a0c922e851}"
@@ -43,13 +34,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductViewModel.cs",
+              "DocumentMoniker": "D:\\GitHub\\WPF-UI\\TeamManager\\TeamManager\\ViewModels\\ProductViewModel.cs",
+              "RelativeDocumentMoniker": "TeamManager\\ViewModels\\ProductViewModel.cs",
+              "ToolTip": "D:\\GitHub\\WPF-UI\\TeamManager\\TeamManager\\ViewModels\\ProductViewModel.cs",
+              "RelativeToolTip": "TeamManager\\ViewModels\\ProductViewModel.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB0AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T14:47:39.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "sqlCMD.cs",
+              "DocumentMoniker": "D:\\GitHub\\WPF-UI\\TeamManager\\TeamManager\\Data\\sqlCMD.cs",
+              "RelativeDocumentMoniker": "TeamManager\\Data\\sqlCMD.cs",
+              "ToolTip": "D:\\GitHub\\WPF-UI\\TeamManager\\TeamManager\\Data\\sqlCMD.cs",
+              "RelativeToolTip": "TeamManager\\Data\\sqlCMD.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAD4vyQAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-02T14:38:01.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "ItemRepo.cs",
               "DocumentMoniker": "D:\\GitHub\\WPF-UI\\TeamManager\\TeamManager\\Data\\Repositories\\ItemRepo.cs",
               "RelativeDocumentMoniker": "TeamManager\\Data\\Repositories\\ItemRepo.cs",
               "ToolTip": "D:\\GitHub\\WPF-UI\\TeamManager\\TeamManager\\Data\\Repositories\\ItemRepo.cs",
               "RelativeToolTip": "TeamManager\\Data\\Repositories\\ItemRepo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAhwB8AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-01T14:32:38.827Z",
               "EditorCaption": ""

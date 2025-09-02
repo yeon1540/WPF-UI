@@ -1,5 +1,4 @@
-﻿using DryIoc;
-using Prism.Commands;
+﻿using Prism.Commands;
 using Prism.Mvvm;
 using TeamManager.Data;
 using TeamManager.Data.Entity;
@@ -22,11 +21,13 @@ namespace TeamManager.ViewModels
 
         private void ProductADD()
         {
-            items.ItemCode = "1";
-            items.ItemMaker = "미쯔비시";
-            items.ItemName = "차단기";
+            //items.ItemCode = "1";
+            //items.ItemMaker = "미쯔비시";
+            //items.ItemName = "차단기";
 
-            _sql.ItemsRepo.Insert(items);
+            //_sql.ItemsRepo.Insert(items);
+
+            _sql.ItemsRepo.GetDataA("1", "품묵이다1");
         }
 
         public DelegateCommand CategoryAddCommand { get; set; }
